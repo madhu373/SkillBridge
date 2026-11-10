@@ -1,0 +1,282 @@
+export const TRANSLATIONS = {
+  en: {
+    nav: {
+      home: "Home",
+      explore: "Explore Courses",
+      about: "About Us",
+      myLearning: "My Learning",
+      login: "Log In",
+      signUp: "Sign Up",
+      enrolledBadge: "Enrolled",
+      accessibilityMode: "Low-Vision Mode",
+      accessibilityNormal: "Standard View",
+      languageToggle: "हिंदी"
+    },
+    hero: {
+      badge: "India's Industry-Led Upskilling Platform",
+      titleStart: "Discover Skills That",
+      titleHighlight: "Move You Forward",
+      subtitle: "Learn from industry experts, explore career-focused courses and build the future you want.",
+      exploreBtn: "Explore Courses",
+      categoriesBtn: "Browse Categories",
+      stat1Number: "12+",
+      stat1Label: "Job-Ready Tracks",
+      stat2Number: "4.8★",
+      stat2Label: "Learner Rating",
+      stat3Number: "94%",
+      stat3Label: "Completion Rate",
+      trustPill: "Trusted by 50,000+ ambitious learners across India"
+    },
+    search: {
+      placeholder: "Search courses by keyword, topic, or instructor (e.g. Python, Figma, Cloud)...",
+      searchBtn: "Search",
+      quickTags: "Popular searches:",
+      tagPython: "Python",
+      tagFigma: "UI/UX Figma",
+      tagData: "Data Analytics",
+      tagAWS: "Cloud & AWS"
+    },
+    categories: {
+      title: "Explore Popular Categories",
+      subtitle: "Carefully designed learning paths aligning with top tech hiring demands.",
+      allCategories: "View All Courses in"
+    },
+    featured: {
+      title: "Featured Career Programs",
+      subtitle: "Highest rated and most popular programs selected by industry leaders.",
+      viewAll: "View All Courses",
+      viewDetails: "View Details",
+      enrolNow: "Enrol Now"
+    },
+    whyUs: {
+      tag: "Why SkillBridge",
+      title: "Designed for Career Acceleration",
+      subtitle: "We removed the fluff. Every module is built around what engineering, data, and design teams look for.",
+      item1Title: "Industry-Relevant Learning",
+      item1Desc: "Curriculum designed with tech leads from Bengaluru and Mumbai startups.",
+      item2Title: "Expert Mentorship",
+      item2Desc: "Learn directly from practicing architects, lead designers, and CISOs.",
+      item3Title: "Hands-on Capstones",
+      item3Desc: "Build 3+ production-ready projects per course for your portfolio.",
+      item4Title: "Frictionless Enrolment",
+      item4Desc: "Transparent pricing, zero hidden subscriptions, and instant lifetime access."
+    },
+    testimonials: {
+      tag: "Learner Stories",
+      title: "From Learners to Tech Leaders",
+      subtitle: "See how SkillBridge helped students and professionals break into their dream roles."
+    },
+    cta: {
+      title: "Ready to Transform Your Career?",
+      subtitle: "Join thousands of ambitious learners. Explore industry-aligned curricula and enrol in minutes.",
+      button: "Explore All Courses Now",
+      guarantee: "100% money-back satisfaction guarantee within 7 days."
+    },
+    footer: {
+      tagline: "Discover Your Potential. Build Your Future.",
+      description: "SkillBridge is a premier Bangalore-founded online learning platform focused on real-world skills, industry mentors, and portfolio-worthy projects.",
+      quickLinks: "Platform",
+      categoriesTitle: "Top Categories",
+      supportTitle: "Support & Legal",
+      rights: "SkillBridge EdTech Inc. All rights reserved. Academic Internship Project.",
+      bangaloreLocation: "Bangalore Innovation Hub, Karnataka, India"
+    },
+    explore: {
+      title: "Explore All Courses",
+      subtitle: "Filter, compare, and discover courses curated for the Indian tech and product ecosystem.",
+      searchPlaceholder: "Search by course title, skills or instructor...",
+      filterHeading: "Filters",
+      clearAll: "Reset All",
+      categoryFilter: "Category",
+      levelFilter: "Difficulty Level",
+      priceFilter: "Price Range",
+      durationFilter: "Course Duration",
+      ratingFilter: "Minimum Rating",
+      sortBy: "Sort By:",
+      sortPopular: "Most Popular",
+      sortRating: "Highest Rated",
+      sortPriceLow: "Price: Low to High",
+      sortPriceHigh: "Price: High to Low",
+      showing: "Showing",
+      of: "of",
+      courses: "courses",
+      noResultsTitle: "No matching courses found",
+      noResultsDesc: "Try adjusting your search query or relaxing your filter selections to see more courses.",
+      resetFiltersBtn: "Reset All Filters",
+      allLevels: "All Levels",
+      allPrices: "All Prices",
+      freeUnder2000: "Under ₹2,500",
+      price2500to3500: "₹2,500 - ₹3,500",
+      priceAbove3500: "Above ₹3,500",
+      allDurations: "All Durations",
+      shortDuration: "Short (≤ 6 Weeks)",
+      longDuration: "Long (> 6 Weeks)",
+      anyRating: "Any Rating",
+      rating4Plus: "4.8 & Above",
+      rating45Plus: "4.7 & Above"
+    },
+    courseCard: {
+      weeks: "weeks",
+      hours: "hours",
+      instructor: "By",
+      enrol: "Enrol Now",
+      details: "View Details"
+    },
+    dashboard: {
+      welcome: "Welcome back",
+      subtitle: "Track your active coursework, resume interactive lessons, and view certificates.",
+      statEnrolled: "Enrolled Courses",
+      statHours: "Hours Learned",
+      statCertificates: "Certificates Earned",
+      statAverageScore: "Avg Quiz Score",
+      tabInProgress: "In Progress",
+      tabCompleted: "Completed",
+      resumeLesson: "Resume Learning",
+      reviewCourse: "Review Curriculum",
+      downloadCertificate: "View Certificate",
+      noEnrolled: "You have not enrolled in any courses yet.",
+      exploreBtn: "Discover Courses",
+      percentCompleted: "completed"
+    }
+  },
+  hi: {
+    nav: {
+      home: "होम",
+      explore: "कोर्स देखें",
+      about: "हमारे बारे में",
+      myLearning: "मेरी पढ़ाई",
+      login: "लॉग इन",
+      signUp: "साइन अप",
+      enrolledBadge: "नामांकित",
+      accessibilityMode: "सुगम्य दृश्य (Low-Vision)",
+      accessibilityNormal: "सामान्य दृश्य",
+      languageToggle: "English"
+    },
+    hero: {
+      badge: "भारत का अग्रणी उद्योग-आधारित कौशल मंच",
+      titleStart: "ऐसे कौशल सीखें जो",
+      titleHighlight: "आपको आगे बढ़ाएं",
+      subtitle: "उद्योग विशेषज्ञों से सीखें, करियर-केंद्रित पाठ्यक्रमों का पता लगाएं और अपना सुनहरा भविष्य बनाएं।",
+      exploreBtn: "कोर्स खोजें",
+      categoriesBtn: "श्रेणियां ब्राउज़ करें",
+      stat1Number: "12+",
+      stat1Label: "नौकरी-तैयार प्रोग्राम",
+      stat2Number: "4.8★",
+      stat2Label: "विद्यार्थी रेटिंग",
+      stat3Number: "94%",
+      stat3Label: "सफलता दर",
+      trustPill: "भारत भर में 50,000+ महत्वाकांक्षी शिक्षार्थियों द्वारा विश्वसनीय"
+    },
+    search: {
+      placeholder: "कीवर्ड, विषय या प्रशिक्षक द्वारा खोजें (जैसे Python, Figma, Cloud)...",
+      searchBtn: "खोजें",
+      quickTags: "लोकप्रिय खोजें:",
+      tagPython: "पायथन",
+      tagFigma: "UI/UX फिग्मा",
+      tagData: "डेटा एनालिटिक्स",
+      tagAWS: "क्लाउड और एडब्ल्यूएस"
+    },
+    categories: {
+      title: "लोकप्रिय श्रेणियां देखें",
+      subtitle: "उद्योग की शीर्ष तकनीकी आवश्यकताओं के अनुरूप सावधानीपूर्वक तैयार किए गए मार्ग।",
+      allCategories: "सभी कोर्स देखें:"
+    },
+    featured: {
+      title: "विशेष करियर कार्यक्रम",
+      subtitle: "उद्योग के विशेषज्ञों द्वारा चुने गए उच्चतम रेटिंग वाले लोकप्रिय कोर्स।",
+      viewAll: "सभी कोर्स देखें",
+      viewDetails: "विवरण देखें",
+      enrolNow: "अभी नामांकन करें"
+    },
+    whyUs: {
+      tag: "स्किलब्रिज क्यों चुनें",
+      title: "करियर की तीव्र प्रगति के लिए निर्मित",
+      subtitle: "हमने व्यर्थ सामग्री को हटा दिया है। हर मॉड्यूल वास्तविक तकनीकी आवश्यकताओं के आधार पर तैयार किया गया है।",
+      item1Title: "उद्योग-प्रासंगिक शिक्षा",
+      item1Desc: "बेंगलुरु और मुंबई के शीर्ष स्टार्टअप्स के तकनीकी प्रमुखों द्वारा तैयार पाठ्यक्रम।",
+      item2Title: "विशेषज्ञ मार्गदर्शन",
+      item2Desc: "अनुभवी आर्किटेक्ट्स, लीड डिजाइनरों और सुरक्षा विशेषज्ञों से सीधे सीखें।",
+      item3Title: "व्यावहारिक प्रोजेक्ट्स",
+      item3Desc: "अपने पोर्टफोलियो के लिए प्रति कोर्स 3+ वास्तविक प्रोजेक्ट्स तैयार करें।",
+      item4Title: "सरल नामांकन प्रक्रिया",
+      item4Desc: "पारदर्शी शुल्क, कोई छिपा हुआ खर्च नहीं, और तुरंत आजीवन पहुंच।"
+    },
+    testimonials: {
+      tag: "शिक्षार्थी की राय",
+      title: "शिक्षार्थियों से तकनीकी लीडर्स तक",
+      subtitle: "जानें कैसे स्किलब्रिज ने छात्रों और पेशेवरों को उनके सपनों के पदों तक पहुँचाया।"
+    },
+    cta: {
+      title: "क्या आप अपने करियर को बदलने के लिए तैयार हैं?",
+      subtitle: "हजारों महत्वाकांक्षी शिक्षार्थियों से जुड़ें। कुछ ही मिनटों में नामांकन करें।",
+      button: "अभी सभी कोर्स देखें",
+      guarantee: "7 दिनों के भीतर 100% धन वापसी गारंटी।"
+    },
+    footer: {
+      tagline: "अपनी क्षमता पहचानें। अपना भविष्य संवारें।",
+      description: "स्किलब्रिज बेंगलुरु आधारित एक प्रमुख ऑनलाइन लर्निंग प्लेटफॉर्म है जो व्यावहारिक कौशल और उद्योग मार्गदर्शकों पर केंद्रित है।",
+      quickLinks: "मंच",
+      categoriesTitle: "प्रमुख श्रेणियां",
+      supportTitle: "सहायता एवं नियम",
+      rights: "स्किलब्रिज एडटेक. सर्वाधिकार सुरक्षित. शैक्षणिक इंटर्नशिप प्रोजेक्ट.",
+      bangaloreLocation: "बेंगलुरु इनोवेशन हब, कर्नाटक, भारत"
+    },
+    explore: {
+      title: "सभी कोर्स खोजें",
+      subtitle: "भारतीय तकनीकी और उत्पाद पारिस्थितिकी तंत्र के लिए तैयार किए गए पाठ्यक्रमों को फ़िल्टर करें और तुलना करें।",
+      searchPlaceholder: "कोर्स का नाम, कौशल या शिक्षक खोजें...",
+      filterHeading: "फ़िल्टर",
+      clearAll: "सभी हटाएं",
+      categoryFilter: "श्रेणी",
+      levelFilter: "कठिनाई स्तर",
+      priceFilter: "मूल्य दायरा",
+      durationFilter: "कोर्स की अवधि",
+      ratingFilter: "न्यूनतम रेटिंग",
+      sortBy: "क्रमबद्ध करें:",
+      sortPopular: "सबसे लोकप्रिय",
+      sortRating: "उच्चतम रेटिंग",
+      sortPriceLow: "मूल्य: कम से ज्यादा",
+      sortPriceHigh: "मूल्य: ज्यादा से कम",
+      showing: "दिखा रहे हैं",
+      of: "कुल",
+      courses: "कोर्स",
+      noResultsTitle: "कोई मेल खाता कोर्स नहीं मिला",
+      noResultsDesc: "अधिक कोर्स देखने के लिए अपनी खोज बदलें या फ़िल्टर हटाएँ।",
+      resetFiltersBtn: "सभी फ़िल्टर रीसेट करें",
+      allLevels: "सभी स्तर",
+      allPrices: "सभी मूल्य",
+      freeUnder2000: "₹2,500 से कम",
+      price2500to3500: "₹2,500 - ₹3,500",
+      priceAbove3500: "₹3,500 से अधिक",
+      allDurations: "सभी अवधियाँ",
+      shortDuration: "कम अवधि (≤ 6 सप्ताह)",
+      longDuration: "लंबी अवधि (> 6 सप्ताह)",
+      anyRating: "कोई भी रेटिंग",
+      rating4Plus: "4.8 और अधिक",
+      rating45Plus: "4.7 और अधिक"
+    },
+    courseCard: {
+      weeks: "सप्ताह",
+      hours: "घंटे",
+      instructor: "द्वारा",
+      enrol: "नामांकन करें",
+      details: "विवरण देखें"
+    },
+    dashboard: {
+      welcome: "वापसी पर स्वागत है",
+      subtitle: "अपने पाठ्यक्रमों की प्रगति ट्रैक करें, पाठ जारी रखें और प्रमाण पत्र देखें।",
+      statEnrolled: "नामांकित कोर्स",
+      statHours: "सीखने के घंटे",
+      statCertificates: "प्राप्त प्रमाण पत्र",
+      statAverageScore: "औसत स्कोर",
+      tabInProgress: "जारी है",
+      tabCompleted: "पूर्ण",
+      resumeLesson: "पढ़ाई जारी रखें",
+      reviewCourse: "पाठ्यक्रम देखें",
+      downloadCertificate: "प्रमाण पत्र देखें",
+      noEnrolled: "आपने अभी तक किसी कोर्स में नामांकन नहीं किया है।",
+      exploreBtn: "कोर्स खोजें",
+      percentCompleted: "पूर्ण"
+    }
+  }
+};

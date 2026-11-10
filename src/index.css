@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #F8F7FC;
+    color: #29283A;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #25234A;
+  }
+}
+
+/* Accessible Low-Vision / High-Contrast Mode */
+body.accessible-mode {
+  font-size: 110%;
+  line-height: 1.7;
+}
+
+body.accessible-mode h1,
+body.accessible-mode h2,
+body.accessible-mode h3,
+body.accessible-mode h4 {
+  font-weight: 800 !important;
+  color: #110e2d !important;
+  letter-spacing: -0.01em;
+}
+
+body.accessible-mode p,
+body.accessible-mode span,
+body.accessible-mode label {
+  color: #1a1924 !important;
+  font-weight: 500;
+}
+
+body.accessible-mode button,
+body.accessible-mode a {
+  outline-offset: 3px !important;
+  font-weight: 600;
+}
+
+body.accessible-mode .border,
+body.accessible-mode .border-brand-border {
+  border-color: #25234A !important;
+  border-width: 2px !important;
+}
+
+body.accessible-mode .card-accessible {
+  border: 2px solid #25234A !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F7FC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCD5FF;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A99BEF;
+}
